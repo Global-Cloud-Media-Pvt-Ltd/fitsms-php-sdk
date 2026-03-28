@@ -1,0 +1,20 @@
+{
+    "name": "global-cloud-media/fitsms",
+    "description": "Official PHP SDK for FitSMS.lk Gateway",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GlobalCloudMedia\\FitSMS\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danuja Dilanka",
+            "email": "27912184+danuja-dilanka@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
